@@ -3,51 +3,6 @@ class Program
 {
     static void Main(string[] args)
     {
-    //    string username = "alice";
-    //    string password = "alice123";
-    //    Console.WriteLine("Please input username and password");
-    //    string input_username = Console.ReadLine();
-    //    string input_password = Console.ReadLine();
-    //    if ((username == input_username) && (password == input_password)){
-    //     Console.WriteLine("Login Successfully");
-    //    }
-    //    else{
-    //     Console.WriteLine("Please check your username/password");
-    // int i = 0;
-    // while(i<3){
-    //     Console.WriteLine(i);
-    //     i++;
-    // Console.WriteLine(" Input an integer N: ");
-    // string i = Console.ReadLine();
-    // int int_i = Convert.ToInt32(i);
-    // while(int_i>0){
-    //     Console.Write("*");
-    //     int_i--;
-    // }
-    // Console.WriteLine("+\n----*");
-    // int num = 1;
-    // while(num<=10){
-    //     Console.WriteLine("num");
-    //     num = num+2;
-    //     num = num+2;
-    // }
-    // //Q2
-    // Console.WriteLine("---Q2---");
-    // num = 1;
-    // while(num<=10){
-    //     if(num%2!=0){
-    //         Console.WriteLine(num);
-    //     }
-    //     num++;
-    // for(int i =0; i<4; i++)
-    // {
-    //     Console.WriteLine(i);
-    // }
-    // Console.WriteLine("End!");
-    // for (int x = 0; x<10; x++)
-    // {
-    //     Console.WriteLine(x);
-    // }
     Console.WriteLine("Wrong Letter Grade");
     string point = Console.ReadLine();
     int point_int = Convert.ToInt16(point);
@@ -66,7 +21,6 @@ class Program
     else{ // point<1
     Console.WriteLine("Letter Grade: F");
     }
-    
     }
         }
     
